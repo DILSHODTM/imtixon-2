@@ -1,0 +1,34 @@
+
+.btn{
+    color: white;
+    background: #203A4C;
+    width: 200px;
+    height: 48px;
+    &:hover{
+        transition: all 0.5s ease;
+        background: #5FB4A2;
+    
+    }
+}
+.btn2{
+    border: 1px solid #33323D;
+    color: #203A4C;
+    background: #F2F2F2;
+    width: 200px;
+    height: 48px;
+    &:hover{
+        background-color: #33323D;
+    transition: all 0.5s ease;
+    color: white;
+    }
+}
+
+.hrs{
+    margin-top: 40px;
+}
+
+.icons{
+    margin: auto;
+width: 100px;
+height: 30px;
+}

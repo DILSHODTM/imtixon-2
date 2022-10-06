@@ -1,0 +1,148 @@
+
+.intro{
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 30px;
+    &_cards{
+        width: 1110px;
+        &__img{
+        width: 1110px;
+    }
+    }
+    &_info {text-align: center;
+        background-color: #FAFAFA;
+        position: relative;
+        top: -310px;
+        width: 445px;
+        height: 307px;
+        &__h{
+            font-family: Ibarra Real Nova;
+font-size: 50px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -0.4464285671710968px;
+text-align: left;
+
+        }
+    }
+}
+@media only screen and (max-width:992px){
+    
+.intro{
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 30px;
+    &_cards{
+        width: 900px;
+        &__img{
+        width: 800px;
+    }
+    }
+    &_info {text-align: center;
+        background-color: #FAFAFA;
+        position: relative;
+        top: -302px;
+        width: 445px;
+        height: 307px;
+        &__h{
+            font-family: Ibarra Real Nova;
+font-size: 50px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -0.4464285671710968px;
+text-align: left;
+
+        }
+    }
+}
+}
+@media only screen and (max-width:768px){
+    
+    .intro{
+        width: 700px;
+        margin: 0 auto;
+        margin-top: 30px;
+        &_cards{
+            width: 700px;
+            &__img{
+            width: 650px;
+        }
+        }
+        &_info {text-align: center;
+            background-color: #FAFAFA;
+            position: relative;
+            top: -230px;
+            width: 305px;
+            height: 232px;
+            &__h{
+                font-family: Ibarra Real Nova;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.4464285671710968px;
+    text-align: left;
+    
+            }
+        }
+    }
+    }
+    @media only screen and (max-width:576px){
+    
+        .intro{
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 30px;
+            &_cards{
+                width: 400px;
+                &__img{
+                width: 380px;
+            }
+            }
+            &_info {text-align: center;
+                background-color: #FAFAFA;
+                position: relative;
+                top: -200px;
+                width: 205px;
+                height: 215px;
+                &__h{
+                    font-family: Ibarra Real Nova;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: -0.4464285671710968px;
+        text-align: left;
+        
+                }
+            }
+        }
+        }
+        @media only screen and (max-width:400px){
+    
+            .intro{
+                width: 350px;
+                margin: 0 auto;
+                margin-top: 30px;
+                &_cards{
+                    width: 350px;
+                    &__img{
+                    width: 350px;
+                }
+                }
+                &_info {text-align: center;
+                    background-color: #FAFAFA;
+                    position: relative;
+                    top: -166px;
+                    width: 205px;
+                    height: 165px;
+                    &__h{
+                        font-family: Ibarra Real Nova;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: -0.4464285671710968px;
+            text-align: left;
+            
+                    }
+                }
+            }
+            }

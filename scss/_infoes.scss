@@ -1,0 +1,116 @@
+.infoes{
+
+    &_btn{
+        gap: 50px;
+        display: flex;
+        margin: auto;
+    }
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+&_informatsion{
+    margin: 50px 0;
+    &_h{
+        font-family: Ibarra Real Nova;
+font-size: 40px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: -0.3571428656578064px;
+text-align: left;
+
+    }
+}
+}
+
+.stick{
+    margin: auto;
+    width: 300px;
+    height: 1px;
+    background-color: #203A4C;
+}
+@media only screen and (max-width:992px){
+    .infoes{
+        &_btn{
+            gap: 50px;
+            display: flex;
+            margin: auto;
+        }
+        display: flex;
+        width: 850px;
+        margin: 0 auto;
+    &_informatsion{
+        &_h{
+            font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    
+        }
+    }
+    }
+}
+@media only screen and (max-width:768px){
+    .infoes{
+        &_btn{
+            gap: 50px;
+            display: flex;
+            margin: auto;
+        }
+        display: flex;
+        width: 700px;
+        margin: 0 auto;
+    &_informatsion{
+        &_h{
+            font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    
+        }
+    }
+    }
+}
+
+.stick{
+    margin: auto;
+    width: 50px;
+    height: 1px;
+    background-color: #203A4C;
+}
+
+@media only screen and (max-width:768px){
+    .infoes{
+        &_btn{
+         width: 200px;
+            display: flex;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+    &_informatsion{
+        &_h{
+            font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    
+        }
+    }
+    }
+}
+
+.stick{
+    display: none;
+    margin: auto;
+    width: 1px;
+    height: 1px;
+    background-color: #203A4C;
+}

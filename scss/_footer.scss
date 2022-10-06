@@ -1,0 +1,160 @@
+
+.foot{
+    background-color:#33323D;
+    ;
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.footer{
+    display: flex; 
+    justify-content: space-between;
+    &_ul{
+        display: flex;
+        gap: 50px;
+        list-style-type: none;
+   
+       &__list{
+     
+        &-link{font-family: Public Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-align: left;
+            
+            color: white;
+            text-decoration: none;
+        }
+       }
+    }
+    &_menu{
+        display: none;
+    }
+}
+.footers{
+    background: #33323D;
+
+}
+@media only screen and (max-width:992px){
+    
+.foot{
+    background-color:#33323D;
+    ;
+    width: 850px;
+    margin: 0 auto;
+
+}
+.footer{
+    display: flex; 
+    justify-content: space-between;
+    &_ul{
+        display: flex;
+        gap: 50px;
+        list-style-type: none;
+   
+       &__list{
+     
+        &-link{font-family: Public Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-align: left;
+            
+            color: white;
+            text-decoration: none;
+        }
+       }
+    }
+    &_menu{
+        display: none;
+    }
+}
+.footers{
+    background: #33323D;
+
+}
+}
+
+@media only screen and (max-width:768px){
+    
+    .foot{
+        background-color:#33323D;
+        ;
+        width: 700px;
+        margin: 0 auto;
+    
+    }
+    .footer{
+        display: flex; 
+        justify-content: space-between;
+        &_ul{
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+       
+           &__list{
+         
+            &-link{font-family: Public Sans;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 2px;
+                text-align: left;
+                
+                color: white;
+                text-decoration: none;
+            }
+           }
+        }
+        &_menu{
+            display: none;
+        }
+    }
+    .footers{
+        background: #33323D;
+    
+    }
+    }
+    
+@media only screen and (max-width:576px){
+    
+    .foot{
+        background-color:#33323D;
+        ;
+        width: 400px;
+        margin: 0 auto;
+    
+    }
+    .footer{
+        display: flex; 
+        justify-content: space-around;
+        &_ul{
+            display: none;
+            gap: 50px;
+            list-style-type: none;
+       
+           &__list{
+         
+            &-link{font-family: Public Sans;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 2px;
+                text-align: left;
+                
+                color: white;
+                text-decoration: none;
+            }
+           }
+        }
+        &_menu{
+            display: none;
+        }
+    }
+    .footers{
+        background: #33323D;
+    
+    }
+    }

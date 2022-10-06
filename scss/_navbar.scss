@@ -1,0 +1,168 @@
+.navbar{
+    width: 1140px;
+    margin: 20px auto;
+
+}
+.nav{
+    display: flex; 
+    justify-content: space-between;
+    &_ul{
+        display: flex;
+        gap: 50px;
+        list-style-type: none;
+   
+       &__list{
+     
+        &-link{
+            font-family: Public Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 2px;
+text-align: left;
+
+            text-decoration: none;
+        }
+       }
+    }
+    &_menu{
+        display: none;
+    }
+}
+@media only screen and (max-width:992px)
+{
+    .navbar{
+        width: 780px;
+        margin: 0 auto;
+    
+    }
+    .nav{
+        display: flex; 
+        justify-content: space-between;
+        &_ul{
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+       
+           &__list{
+         
+            &-link{
+                font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    
+                text-decoration: none;
+            }
+           }
+        }
+        &_menu{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .navbar{
+        width: 700px;
+        margin: 0 auto;
+    
+    }
+    .nav{
+        display: flex; 
+        justify-content: space-between;
+        &_ul{
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+       
+           &__list{
+         
+            &-link{
+                font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    
+                text-decoration: none;
+            }
+           }
+        }
+        &_menu{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width:576px)
+{
+    .navbar{
+        width: 400px;
+        margin: 0 auto;
+    
+    }
+    .nav{
+        display: flex; 
+        justify-content: space-between;
+        &_ul{
+            display: none;
+            gap: 50px;
+            list-style-type: none;
+       
+           &__list{
+         
+            &-link{
+                font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    
+                text-decoration: none;
+            }
+           }
+        }
+        &_menu{
+            display: block;
+        }
+    }
+}
+@media only screen and (max-width:400px){
+    .navbar{
+        width: 350px;
+        margin: 0 auto;
+    
+    }
+    .nav{
+        display: flex; 
+        justify-content: space-between;
+        &_ul{
+            display: none;
+            gap: 50px;
+            list-style-type: none;
+       
+           &__list{
+         
+            &-link{
+                font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    
+                text-decoration: none;
+            }
+           }
+        }
+        &_menu{
+            display: block;
+        }
+    }
+}
